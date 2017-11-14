@@ -1,1 +1,8 @@
 P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\bin\Debug\Jarvis WindowsClient.exe.config
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\bin\Debug\Jarvis WindowsClient.exe
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\bin\Debug\Jarvis WindowsClient.pdb
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\obj\Debug\Jarvis WindowsClient.csprojResolveAssemblyReference.cache
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\obj\Debug\Jarvis_WindowsClient.Properties.Resources.resources
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\obj\Debug\Jarvis WindowsClient.csproj.GenerateResource.Cache
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\obj\Debug\Jarvis WindowsClient.exe
+P:\PrivateProjects\Jarvis WindowsClient\Jarvis WindowsClient\Jarvis WindowsClient\obj\Debug\Jarvis WindowsClient.pdb
