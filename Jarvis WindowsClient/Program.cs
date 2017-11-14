@@ -14,10 +14,10 @@ namespace Jarvis_WindowsClient{
         private NotifyIcon trayIcon;
         private JarvisNetwork network;
 
-        private void jarvisEvent(string jarvisEvent) {
-            Console.WriteLine(jarvisEvent);
-            main.trayIcon.BalloonTipText = jarvisEvent;
-            main.trayIcon.BalloonTipTitle = jarvisEvent;
+        private void jarvisEvent(JarvisNetworkEvent jarvisEvent) {
+            Console.WriteLine(jarvisEvent.deviceName);
+            main.trayIcon.BalloonTipText = jarvisEvent.deviceName;
+            main.trayIcon.BalloonTipTitle = jarvisEvent.deviceName;
             main.trayIcon.ShowBalloonTip(5000);
            // main.trayIcon.
         }

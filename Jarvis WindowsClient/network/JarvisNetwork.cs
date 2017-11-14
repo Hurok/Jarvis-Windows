@@ -11,7 +11,7 @@ namespace Jarvis_WindowsClient.network {
 
     public class JarvisNetwork {
 
-        private Action<string> eventCallback;
+        private Action<JarvisNetworkEvent> eventCallback;
 
         public void startListening(){
 
@@ -21,13 +21,14 @@ namespace Jarvis_WindowsClient.network {
             IPEndPoint from = new IPEndPoint(0, 0);
             
             while (true){
-                var recvBuffer = serverSocket.Receive(ref from);
-                eventCallback(Encoding.UTF8.GetString(recvBuffer));
+                byte[] recvBuffer = serverSocket.Receive(ref from);
+            
+                eventCallback(new JarvisNetworkEvent(recvBuffer));
                 //Console.WriteLine(Encoding.UTF8.GetString(recvBuffer));
             }
         }
 
-        public JarvisNetwork(Action<string> callback) {
+        public JarvisNetwork(Action<JarvisNetworkEvent> callback) {
 
             eventCallback = callback;
 
